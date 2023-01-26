@@ -1,0 +1,55 @@
+body{
+	margin: 0 auto;
+	background-image: url("../img/voit.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 720px;
+}
+
+.container{
+	width: 500px;
+	height: 320px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgba(101, 109, 117, 0.7);
+	margin-top: 200px;
+}
+
+.container img{
+	width: 150px;
+	height: 150px;
+	margin-top: -60px;
+}
+
+input[type="text"],input[type="password"]{
+	margin-top: 30px;
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 40px;
+	border-radius: 13px;
+}
+
+.form-input::before{
+	content: "\f007";
+	font-family: "FontAwesome";
+	padding-left: 07px;
+	padding-top: 40px;
+	position: absolute;
+	font-size: 35px;
+	color: #0A2558; 
+}
+
+.form-input:nth-child(2)::before{
+	content: "\f023";
+}
+
+.btn-login{
+	padding: 15px 30px;
+	border: none;
+	background-color: #0A2558;
+	color: #fff;
+	border-radius: 12px;
+	width: 200px;
+}
